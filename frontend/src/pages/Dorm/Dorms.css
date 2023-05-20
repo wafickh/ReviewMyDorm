@@ -1,0 +1,273 @@
+.sectionA {
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color: #562F4A;
+    margin-bottom: 5%;
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;
+    /* border-bottom-right-radius: 6%;
+    border-bottom-left-radius: 6%; */
+    padding-bottom: 4%;
+}
+
+.sectionA img {
+    border-top-right-radius: 6%;
+    border-top-left-radius: 6%;
+}
+
+.amin {
+    margin-top: 9%;
+    margin-right: 3%;
+    color: #562F4A;
+    font-size: larger;
+
+    background-color: aliceblue;
+}
+
+.bibi {
+    font-size: larger;
+}
+
+.amino {
+    margin-left: 2%;
+    font-size: small;
+    margin-bottom: 2%;
+}
+
+.sa2 {
+    padding-left: 3%;
+}
+
+.headersi h1 {
+    color: #562F4A;
+    margin: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 4%;
+    font-size: 2.4rem;
+    width: 110%;
+}
+
+.nbb {
+    margin-left: 2%;
+}
+
+.buttrev {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #562F4A;
+    letter-spacing: 0.03rem;
+    border-radius: 16px 0px;
+    padding: .5em .835em;
+    border: 2px solid #562F4A;
+    border-width: 2px;
+}
+
+.hhe button {
+    margin-top: 10%;
+}
+
+.boldu {
+    font-weight: bold;
+}
+
+.headersi a {
+    color: #562F4A;
+    margin: 2%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+.jiberi {
+    color: aliceblue;
+}
+
+.wab {
+    background-color: aliceblue;
+    padding: 1.4%;
+    color: #562F4A;
+    margin: 1.5%;
+    font-size: 0.9rem;
+}
+
+.Prices h3 {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.Prices p {
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.depos h3 {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.flexxy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+.depos p {
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.Addinf {
+    overflow-wrap: break-word;
+    /* Enable text wrapping within the column */
+    word-break: break-all;
+    
+    width: 100%;
+    max-width: 100%;
+}
+
+.Addinf h3 {
+    color: aliceblue;
+
+}
+
+
+.Addinf p {
+    font-size: 0.9rem;
+    color: aliceblue;
+    width: 90%;
+}
+
+.Amenitiess h3 {
+    color: aliceblue;
+    font-weight: 600;
+    hyphens: auto;
+}
+
+.Type h3 {
+    color: aliceblue;
+    width: 85%;
+    margin-bottom: 3.4%;
+    font-weight: 600;
+
+}
+
+.filterss {
+    display: flex;
+    padding-right: 1%;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.Amenitiess {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.rate h3 {
+    color: aliceblue;
+    margin-top: 4%;
+    font-weight: 600;
+}
+
+.loll {
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.bb {
+    margin-top: 3%;
+}
+
+.bb h1 {
+    color: #562F4A;
+}
+
+.backhome {
+    margin-bottom: 5%;
+}
+
+.Flexing {
+    display: flex;
+    justify-content: space-betweeen;
+    flex-wrap: wrap;
+}
+
+.sectionB {
+    margin-left: 4%;
+    margin-top: 2.8%;
+    width: 60%;
+}
+
+.flexoz {
+    display: flex;
+    justify-content: space-betweeen;
+    flex-wrap: wrap;
+    margin: 2%;
+    margin-bottom: 0.5%;
+}
+
+.nb {
+    margin-top: 0.1%;
+    margin-right: 0.3%;
+    color: #562F4A;
+
+}
+
+.verified {
+    color: #562F4A;
+    margin-left: 1.3%;
+    font-size: 0.9rem;
+    padding-top: 0.2%;
+}
+
+.tex {
+    margin: 2%;
+    margin-top: 0.5%;
+    color: #562F4A;
+    font-size: 0.9rem;
+
+}
+
+.sosi {
+    margin-bottom: 2.5%;
+    box-shadow: 2px 6px #562f4aac;
+}
+
+/* center h4{
+    
+} */
+
+
+@media screen and (max-width: 900px) {
+    .sectionA {
+        width: 70%;
+        align-items: center;
+    }
+
+    .sectionB {
+        width: 80%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sectionA {
+        width: 90%;
+        align-items: center;
+    }
+
+    .Map {
+        width: 16rem;
+        height: 20rem;
+    }
+
+    .sectionB {
+        width: 80%;
+        align-items: center;
+    }
+}

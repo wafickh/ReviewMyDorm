@@ -1,0 +1,140 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.bg {
+  background: url("header.jpg") center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+
+  max-width: 100%;
+}
+
+.nav-div {
+  height: 600px;
+}
+
+.searchbar {
+  margin-top: 7%;
+}
+
+
+.HeaderText {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #FF3C0C;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.Head {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fdf2d1;
+  padding-bottom: 4%;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.HeaderText .Head h1{
+  align-items: center;
+}
+
+.dataResult {
+  height: 140px;
+  overflow-y: auto;
+}
+
+.form {
+  position: relative;
+}
+
+.padman {
+  padding: 2%;
+}
+
+/* 
+.dataResult::-webkit-scrollbar {
+  display: none;
+} */
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: #562F4A;
+  font-weight: 600;
+  background-color: aliceblue;
+  border-bottom: 0.1px solid grey;
+  padding-top: 2.5%;
+
+}
+.dataItem p{
+  font-size: 15px;
+
+}
+
+
+.dataItem:last-child {
+  font-weight: 400;
+  font-size: smaller;
+  background-color: rgb(201, 217, 217);
+  cursor:default;
+  pointer-events: none;
+  
+}
+.place{
+  color: #562F4A;
+  font-size: x-small;
+}
+
+.dataItem:hover {
+  background-color: rgb(231, 239, 239);
+}
+
+.dataItem:last-child:hover {
+  background-color: rgb(201, 217, 217);
+}
+
+.dataItem p {
+  margin-left: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .nav-div {
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+  }
+  .dataResult .dataItem {
+    font-size: medium;
+  }
+
+  
+  .searchbar {
+    margin-top: 17%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .searchbar {
+      margin-top: 38%;
+     
+    }
+        .dataItem{
+          font-size: 0.7rem;
+        }
+
+}

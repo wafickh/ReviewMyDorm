@@ -1,0 +1,153 @@
+.Appp {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+
+}
+.buttcen{
+    margin-left: 3%;
+}
+.wosipa {
+    width: 191px;
+        max-width: 191px;
+        /* Adjust the max-width value as needed */
+        overflow-wrap: break-word;
+        /* Enable text wrapping within the column */
+        word-break: break-all;
+}
+
+.navnav {
+    width: 13%;
+    background-color: #562F4A;
+    padding-top: 1%;
+    height: 200vh;
+}
+
+.butt1 {
+    padding: 2%;
+    margin: 2%;
+    margin-left: 5%;
+    margin-bottom: 20%;
+}
+.buttri{
+    padding-right: 2%;
+}
+
+.butty {
+    font-size: large;
+    color: #562F4A;
+    background-color: vanilla;
+    padding: 5%;
+    font-size: 1.1rem;
+    letter-spacing: 0.06rem;
+    border-radius: 16px 0px;
+    padding: .5em .835em;
+    border: 2px solid #562F4A;
+    border-width: 2px;
+    width: 95%;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.smallcol {
+    width: 200px;
+}
+
+.approve-button {
+    background-color: #562F4A;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+.butbut{
+    background-color: #562F4A;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        cursor: pointer;
+        margin-right: 8px;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 4px;
+}
+
+.delete-button {
+    background-color: #562F4A;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for buttons */
+.approve-button:hover,
+.delete-button:hover {
+    opacity: 0.9;
+}
+
+/* Active effect for buttons */
+.approve-button:active,
+.delete-button:active {
+    transform: translateY(2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1%;
+}
+
+th,
+td {
+    border: none;
+    padding: 16px;
+    text-align: left;
+    font-weight: bold;
+    color: #444;
+    font-family: Arial, sans-serif;
+    color: #562F4A;
+}
+
+th {
+    background-color: #f8f8f8;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #562F4A;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.titt {
+    font-size: larger;
+    text-decoration: underline;
+    color: aliceblue;
+    margin-left: 9%;
+    margin-bottom: 20%;
+
+}

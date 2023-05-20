@@ -1,0 +1,21 @@
+.mainfoot {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #562F4A;
+    margin-top: 7%;
+}
+
+
+.mainfoot h2 {
+    margin-top: 1%;
+    color: #fdf2d1;
+    font-weight: bold;
+}
+
+.mainfoot p {
+    margin-top: 0.5%;
+    color: #fdf2d1;
+}

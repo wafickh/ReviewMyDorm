@@ -1,0 +1,8 @@
+.smallcol {
+    width: 490px;
+max-width: 490px;
+    /* Adjust the max-width value as needed */
+    overflow-wrap: break-word;
+    /* Enable text wrapping within the column */
+    word-break: break-all;
+}

@@ -1,0 +1,14 @@
+.firsttext {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+    margin-top: 5%;
+    font-weight: 600;
+    padding: 2%;
+    color: #F3E5AB;
+    background-color: #562F4A;
+    margin-top: -1%;
+}
+
+

@@ -1,0 +1,132 @@
+.card3 {
+    color: #562F4A;
+    margin-right: 2%;
+    padding-right: 2%;
+    background-color: aliceblue;
+
+}
+
+.reviewcen h2 {
+    margin-top: 3%;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    color: #562F4A;
+
+}
+
+.RateRoom h3 {
+    color: #562F4A;
+
+}
+
+.RateRoom {
+    margin-bottom: 10%;
+}
+
+.RateRoom p {
+    font-size: 0.9rem;
+}
+
+.titi {
+    color: #FF3C0C;
+}
+
+.bodd {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* background: url("/images/AddDormBG.jpg") center;
+        background-color: white;
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.finrate {
+    color: #562F4A;
+    font-size: 1.25rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratefin {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-right: 1%;
+}
+
+.ratefinfin {
+    line-height: 1.75rem;
+    padding-right: 1%;
+
+}
+
+.svgstar {
+    margin-left: 1%;
+    padding-bottom: 1%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #ffb400;
+
+}
+
+.mome {
+    margin-top: 18%;
+    margin-bottom: 30%;
+}
+
+.revieww {
+
+    margin-top: 10%;
+}
+
+.revieww h3 {
+    margin-bottom: 2%;
+}
+
+.submitreview {
+    margin-top: 4%;
+    background-color: #562F4A;
+    color: aliceblue;
+}
+
+.backrev {
+    margin-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #562F4A;
+}
+
+.bbc {
+    margin-bottom: 25%;
+}
+
+.centerdorm {
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.err {
+    font-size: x-small;
+    line-height: 2rem;
+    margin-left: 1%;
+    position: absolute;
+    font-weight: 600;
+    color: #FF3C0C;
+}
+.margintopi{
+    margin-top: 3%;
+}
+.dsi{
+    font-size: small;
+    color: #562F4A;
+    margin-top: 8%;
+}

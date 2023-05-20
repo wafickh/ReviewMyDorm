@@ -1,0 +1,84 @@
+.HeadUni {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.HeadUni h1 {
+    font-weight: bold;
+    font-size: 44px;
+    color: #562F4A;
+}
+
+.cardo {
+    width: 380px;
+    margin: 4%;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+img {
+    height: 350px;
+    width: 100%;
+    filter: brightness(85%);
+
+}
+
+.img {
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.cardo .img img {
+    display: block;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.cardo {
+    box-shadow: 3px 46px 66px -33px rgba(242, 190, 177, 0.618);
+}
+
+.title {
+    padding: 5px;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #562F4A;
+    line-height: 2rem;
+}
+
+.locnb {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.flexx {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.DormNb {
+    width: 50%;
+    padding-left: 9px;
+    padding-bottom: 4%;
+    margin-bottom: -0.001%;
+    color: #562F4A;
+
+}
+
+.loc {
+    width: 50%;
+    text-align: right;
+    padding-right: 9px;
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+    color: #562F4A;
+}

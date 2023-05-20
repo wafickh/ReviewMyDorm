@@ -1,0 +1,191 @@
+.imageflu {
+    width: 45%;
+    height: 60vh;
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    display: block;
+    border: 8px solid #562F4A;
+}
+
+#lwek {
+    color: #562F4A;
+}
+
+#sort {
+    color: #562F4A;
+}
+
+p center h2 {
+    font-size: 1.8rem;
+    color: #562F4A;
+    margin-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.browse {
+    margin-top: 4%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+}
+
+.rev {
+    padding-right: 2%;
+}
+
+.flo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thingyss {
+    margin-bottom: -3%;
+    background-color: #562F4A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.browse h2 {
+    color: #562F4A;
+    font-weight: 670;
+    font-size: 1.6rem;
+}
+
+.tit {
+    font-weight: 700;
+}
+
+.loco {
+    font-size: 1.2rem;
+}
+
+.fle {
+    background-color: aliceblue;
+    display: flex;
+    max-width: 30%;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.fle img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 40%;
+    height: auto;
+}
+
+.thingys {
+    margin-left: 2%;
+}
+
+.thingys p {
+    font-size: 0.7rem;
+}
+
+.flexc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sadkj{
+    margin-top: 4%;
+}
+
+.buttadd {
+    background-color: #562F4A;
+    color: aliceblue;
+    font-size: 17px;
+        font-weight: bold;
+        text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: -1%;
+}
+
+.flo p {
+    color: aliceblue;
+}
+
+.prr {
+    font-size: medium;
+}
+
+.rev {
+    font-size: small;
+}
+
+.NameDormm {
+    padding-top: 2%;
+    font-size: 20rem;
+}
+
+.fil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 3px 46px 66px -33px rgba(249, 78, 31, 0.615);
+    border-radius: 10px;
+    margin: 1%;
+    margin-bottom: 2%;
+
+}
+
+.thingyss h2 {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.2rem;
+    max-width: 100%;
+    word-break: break-all;
+    overflow: hidden;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-bottom: 1%;
+}
+.didib{
+    margin-top: 5%;
+}
+
+.backhome{
+    margin-top: 2%;
+}
+.thingyss {
+    overflow: hidden;
+    word-break: break-all;
+    inline-size: 340px;
+}
+
+.imgo {
+    width: 21.23rem;
+}
+
+.imgo img {
+    height: 195px;
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.thingyss {
+    padding: 4%;
+}
+
+
+@media screen and (max-width: 1091px) {
+    .imageflu {
+        width: 75%;
+
+    }
+}
+
+@media screen and (max-width: 631px) {
+    .imageflu {
+        width: 85%;
+        height: 40vh;
+
+    }
+
+}

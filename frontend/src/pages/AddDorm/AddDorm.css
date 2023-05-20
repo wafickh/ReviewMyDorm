@@ -1,0 +1,337 @@
+.bud {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bod {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: url("/images/AddDormBG.jpg") center;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.filters {
+    display: flex;
+    padding: 1%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.pics h3{
+    margin-bottom: 3%;
+}
+.bobobi{
+    margin-top: -2%;
+}
+
+.sax {
+    color: aliceblue;
+    background-color: #562F4A;
+    padding: 1.5%;
+    border-radius: 5%;
+    font-size: 0.69rem;
+    align-items: center;
+    margin: 1%;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.addinfo h4 {
+    font-size: 0.9rem;
+    color: #562F4A;
+    font-weight: 400;
+
+}
+
+.in {
+    margin-top: 5%;
+    
+
+}
+
+.pr {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+
+.inppr {
+    margin-right: 1%;
+    max-height: 1.4rem;
+    width: 1.4rem;
+    border: 3px solid #562F4A;
+    border-radius: 5px;
+    margin-right: 1%;
+    position: relative;
+}
+.in h4{
+    margin-bottom: 0%;
+} 
+
+.pr {
+    margin-top: 2%;
+}
+
+.inppr,
+.pr label {
+    cursor: pointer;
+}
+
+.inppr>input {
+    appearance: none;
+    cursor: pointer;
+}
+
+.in h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0%;
+}
+
+.before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #562F4A;
+    z-index: 1;
+
+}
+
+.after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+}
+
+.pics {
+    margin-top: 6%;
+}
+
+.pics h3 {
+    font-size: 1.1rem;
+}
+
+.addinfo {
+    margin-top: 5%;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.chich {
+    width: 100%;
+}
+
+.mapboxgl-ctrl-attrib-inner {
+    display: none;
+}
+
+.mapboxgl-ctrl-attrib-button {
+    display: none;
+}
+
+.buttons {
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+    border: none;
+
+
+}
+
+.contractInfo {
+    margin-top: 5%;
+}
+
+.contractInfo h3 {
+    font-size: 1.2rem;
+    color: #562F4A;
+}
+
+textarea {
+    max-width: 100%;
+    resize: none;
+}
+
+button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+
+}
+
+button:hover {
+    background-color: #ddd;
+    color: #562F4A;
+}
+
+.back {
+    background-color: #f1f1f1;
+    color: #562F4A;
+}
+
+.continue {
+    background-color: #562F4A;
+    color: white;
+    margin-right: 4.5%;
+}
+
+.head h1 {
+    font-weight: 800;
+    color: #562F4A;
+    font-size: xx-large;
+}
+
+.head p {
+    font-weight: 200;
+    color: #7b456b;
+    font-size: medium;
+    margin-right: 5%;
+}
+
+.card7 {
+    margin-bottom: 20%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    width: 600px;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 3px 46px 66px -60px rgba(255, 60, 12, 0.75);
+}
+
+.Map {
+    z-index: 1;
+    width: 20rem;
+    height: 25rem;
+    overflow: hidden;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.mapboxgl-canvas-container {
+    height: 100%;
+    width: 100%;
+
+}
+
+.Amenities {
+    margin-top: 5%;
+}
+
+.flexxx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inpt label {
+    font-size: 0.8rem;
+}
+
+.mapboxgl-canvas {
+    position: relative;
+    height: inherit;
+    width: inherit;
+}
+
+.head h1{
+    margin-bottom: 10%;
+    margin-right: 4.5%;
+}
+
+.error {
+    font-size: x-small;
+    line-height: 1rem;
+    right: 5%;
+    margin-left: 1%;
+    position: absolute;
+    font-weight: 600;
+    color: #FF3C0C;
+}
+
+.pad {
+    width: 95%;
+}
+
+.inp {
+    margin-top: 3%;
+}
+
+.prices1 {
+    width: 33.2%;
+}
+
+.prices1 input {
+    width: 40%;
+    margin-top: 4%;
+}
+
+.headm {
+    width: 60%;
+}
+
+.inp h4 {
+    font-size: 0.8rem;
+    color: #562F4A;
+    font-weight: 400;
+}
+
+
+.location h4 {
+    font-size: 1.2rem;
+    color: #562F4A;
+    font-weight: 900;
+}
+
+.headm h4 {
+    font-size: 1.1rem;
+}
+
+.addinfo {
+    width: 85%;
+}
+
+.location {
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.location h4 {
+    font-size: large;
+    font-weight: 400;
+    color: #562F4A;
+}
+.Disc{
+    font-size: small;
+    color: #562F4A;
+    margin-right: 10%;
+}
+
+@media screen and (max-width: 791px) {}

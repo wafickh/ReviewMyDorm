@@ -1,0 +1,36 @@
+.full {
+    padding: 1.2rem;
+    font-weight: 600;
+    background-color: #562F4A;
+}
+
+.wogo {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logoo {
+    color: #fdf2d1;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.sign {
+    font-size: large;
+    justify-content: space-evenly;
+}
+
+.sign:hover {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a span {
+    text-decoration: none;
+}
+
+.w {
+    cursor: pointer;
+    width: 11rem;
+}

@@ -1,0 +1,12 @@
+.sas{
+    margin-bottom: 15.26%;
+    /* margin-top: -9%; */
+}
+ 
+@media screen and (max-width: 600px) {
+    .sas {
+            margin-bottom: 40%;
+           
+        }
+
+} 
