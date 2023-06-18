@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000/api",
+  "proxy": "https://review-my-dorm.onrender.com/api",
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
     "antd": "^5.1.2",

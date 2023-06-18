@@ -20,6 +20,7 @@ import AddReview from "./pages/AddReview/AddReview"
 import AdminUser from "./pages/AdminUser/AdminUser"
 import Error404 from "./pages/error/Error404";
 import AdminRev from "./pages/AdminRev/AdminRev";
+import Test from "./pages/test/test";
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
@@ -40,6 +41,9 @@ function App() {
         <Route path="/Admin/Dorms" element={<Admin />} />
         <Route path="/Admin/Reviews" element={<AdminRev />} />
         <Route path="/Admin/Users" element={<AdminUser />} />
+        <Route path="/test" element={<Test />} />
+
+
         <Route path="/error" element={<Error404 />} />
       </Routes>
     </BrowserRouter>

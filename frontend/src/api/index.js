@@ -1,20 +1,20 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/api/schools'
+const url = 'https://review-my-dorm.onrender.com/api/schools'
 
 export const fetchSchools = () => axios.get(url);
 
-export const fetchSchoolName = (Name) => axios.get(`http://localhost:5000/api/schools/findName/${Name}`, Name);
+export const fetchSchoolName = (Name) => axios.get(`https://review-my-dorm.onrender.com/api/schools/findName/${Name}`, Name);
 
-export const getDorms = () => axios.get(`http://localhost:5000/api/dorms`)
+export const getDorms = () => axios.get(`https://review-my-dorm.onrender.com/api/dorms`)
 
-export const getReviews = () => axios.get(`http://localhost:5000/api/reviews`)
+export const getReviews = () => axios.get(`https://review-my-dorm.onrender.com/api/reviews`)
 
-export const getUsers = () => axios.get('http://localhost:5000/api/users')
+export const getUsers = () => axios.get('https://review-my-dorm.onrender.com/api/users')
 
-export const GetDorm = (id) => axios.get(`http://localhost:5000/api/dorms/find/${id}`, id);
+export const GetDorm = (id) => axios.get(`https://review-my-dorm.onrender.com/api/dorms/find/${id}`, id);
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'https://review-my-dorm.onrender.com/api' });
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem('profile')) {
@@ -26,11 +26,11 @@ API.interceptors.request.use((req) => {
 export const signIn = (formData) => API.post('/users/signin', formData);
 export const signUp = (formData) => API.post('/users/signup', formData);
 
-export const approvedorms = (id) => axios.put(`http://localhost:5000/api/dorms/${id}`, id)
-export const deletedorms = (schoolid, dormid, userid) => axios.delete(`http://localhost:5000/api/dorms/${schoolid}/${dormid}/${userid}`, schoolid, dormid, userid)
+export const approvedorms = (id) => axios.put(`https://review-my-dorm.onrender.com/api/dorms/${id}`, id)
+export const deletedorms = (schoolid, dormid, userid) => axios.delete(`https://review-my-dorm.onrender.com/api/dorms/${schoolid}/${dormid}/${userid}`, schoolid, dormid, userid)
 
-export const approvereviews = (id, dormid) => axios.put(`http://localhost:5000/api/reviews/${id}/${dormid}`, id, dormid)
-export const deletereviews = (dormid, userid, reviewid) => axios.delete(`http://localhost:5000/api/reviews/${dormid}/${userid}/${reviewid}`, dormid, userid, reviewid)
+export const approvereviews = (id, dormid) => axios.put(`https://review-my-dorm.onrender.com/api/reviews/${id}/${dormid}`, id, dormid)
+export const deletereviews = (dormid, userid, reviewid) => axios.delete(`https://review-my-dorm.onrender.com/api/reviews/${dormid}/${userid}/${reviewid}`, dormid, userid, reviewid)
 
 
 export const createDorm = (formData) => API.post('/dorms', formData);
